@@ -1,0 +1,11 @@
+#extend("base")
+
+#export("head") {
+    <title>Clock</title>
+}
+
+#export("body") {
+    <div>
+        <h1>#(title)</h1>
+    </div>
+}
